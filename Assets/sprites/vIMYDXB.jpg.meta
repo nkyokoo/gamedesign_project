@@ -1,50 +1,107 @@
 fileFormatVersion: 2
-guid: afd2f38382b62f246a998c7339d9e2f2
+guid: 26f2e8b5a511ab245a07411f1ad35266
 TextureImporter:
   fileIDToRecycleName:
-    21300000: spaceinvaders_0
-    21300002: spaceinvaders_1
-    21300004: spaceinvaders_2
-    21300006: spaceinvaders_3
-    21300008: spaceinvaders_4
-    21300010: spaceinvaders_6
-    21300012: spaceinvaders_7
-    21300014: spaceinvaders_8
-    21300016: spaceinvaders_9
-    21300018: spaceinvaders_10
-    21300020: spaceinvaders_11
-    21300022: spaceinvaders_12
-    21300024: spaceinvaders_13
-    21300026: spaceinvaders_14
-    21300028: spaceinvaders_15
-    21300030: spaceinvaders_16
-    21300032: spaceinvaders_17
-    21300034: spaceinvaders_18
-    21300036: spaceinvaders_19
-    21300038: spaceinvaders_20
-    21300040: spaceinvaders_21
-    21300042: spaceinvaders_22
-    21300044: spaceinvaders_23
-    21300046: spaceinvaders_24
-    21300048: spaceinvaders_25
-    21300050: spaceinvaders_26
-    21300052: spaceinvaders_27
-    21300054: spaceinvaders_28
-    21300056: spaceinvaders_29
-    21300058: spaceinvaders_30
-    21300060: spaceinvaders_31
-    21300062: spaceinvaders_32
-    21300064: spaceinvaders_33
-    21300066: spaceinvaders_34
-    21300068: spaceinvaders_35
-    21300070: spaceinvaders_5
-    21300072: spaceinvaders_41
-    21300074: spaceinvaders_42
-    21300076: spaceinvaders_56
-    21300078: spaceinvaders_57
-    21300080: spaceinvaders_58
-    21300082: spaceinvaders_60
-    21300084: spaceinvaders_61
+    21300000: vIMYDXB_0
+    21300002: vIMYDXB_1
+    21300004: vIMYDXB_2
+    21300006: vIMYDXB_3
+    21300008: vIMYDXB_4
+    21300010: vIMYDXB_5
+    21300012: vIMYDXB_6
+    21300014: vIMYDXB_7
+    21300016: vIMYDXB_8
+    21300018: vIMYDXB_9
+    21300020: vIMYDXB_10
+    21300022: vIMYDXB_11
+    21300024: vIMYDXB_12
+    21300026: vIMYDXB_13
+    21300028: vIMYDXB_14
+    21300030: vIMYDXB_15
+    21300032: vIMYDXB_16
+    21300034: vIMYDXB_17
+    21300036: vIMYDXB_18
+    21300038: vIMYDXB_19
+    21300040: vIMYDXB_20
+    21300042: vIMYDXB_21
+    21300044: vIMYDXB_22
+    21300046: vIMYDXB_23
+    21300048: vIMYDXB_24
+    21300050: vIMYDXB_25
+    21300052: vIMYDXB_26
+    21300054: vIMYDXB_27
+    21300056: vIMYDXB_28
+    21300058: vIMYDXB_29
+    21300060: vIMYDXB_30
+    21300062: vIMYDXB_31
+    21300064: vIMYDXB_32
+    21300066: vIMYDXB_33
+    21300068: vIMYDXB_34
+    21300070: vIMYDXB_35
+    21300072: vIMYDXB_36
+    21300074: vIMYDXB_37
+    21300076: vIMYDXB_38
+    21300078: vIMYDXB_39
+    21300080: vIMYDXB_40
+    21300082: vIMYDXB_41
+    21300084: vIMYDXB_42
+    21300086: vIMYDXB_43
+    21300088: vIMYDXB_44
+    21300090: vIMYDXB_45
+    21300092: vIMYDXB_46
+    21300094: vIMYDXB_47
+    21300096: vIMYDXB_48
+    21300098: vIMYDXB_49
+    21300100: vIMYDXB_50
+    21300102: vIMYDXB_51
+    21300104: vIMYDXB_52
+    21300106: vIMYDXB_53
+    21300108: vIMYDXB_54
+    21300110: vIMYDXB_55
+    21300112: vIMYDXB_56
+    21300114: vIMYDXB_57
+    21300116: vIMYDXB_58
+    21300118: vIMYDXB_59
+    21300120: vIMYDXB_60
+    21300122: vIMYDXB_61
+    21300124: vIMYDXB_62
+    21300126: vIMYDXB_63
+    21300128: vIMYDXB_64
+    21300130: vIMYDXB_65
+    21300132: vIMYDXB_66
+    21300134: vIMYDXB_67
+    21300136: vIMYDXB_68
+    21300138: vIMYDXB_69
+    21300140: vIMYDXB_70
+    21300142: vIMYDXB_71
+    21300144: vIMYDXB_72
+    21300146: vIMYDXB_73
+    21300148: vIMYDXB_74
+    21300150: vIMYDXB_75
+    21300152: vIMYDXB_76
+    21300154: vIMYDXB_77
+    21300156: vIMYDXB_78
+    21300158: vIMYDXB_79
+    21300160: vIMYDXB_80
+    21300162: vIMYDXB_81
+    21300164: vIMYDXB_82
+    21300166: vIMYDXB_83
+    21300168: vIMYDXB_84
+    21300170: vIMYDXB_85
+    21300172: vIMYDXB_86
+    21300174: vIMYDXB_87
+    21300176: vIMYDXB_88
+    21300178: vIMYDXB_89
+    21300180: vIMYDXB_90
+    21300182: vIMYDXB_91
+    21300184: vIMYDXB_92
+    21300186: vIMYDXB_93
+    21300188: vIMYDXB_94
+    21300190: vIMYDXB_95
+    21300192: vIMYDXB_96
+    21300194: vIMYDXB_97
+    21300196: vIMYDXB_98
+    21300198: vIMYDXB_99
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -127,581 +184,501 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spaceinvaders_0
+      name: vIMYDXB_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 624
-        width: 110
-        height: 80
+        x: 0
+        y: 3072
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a01df9595c1cd24ab84c3d2eb502075
+      spriteID: 67319e7ffcbbf83489762428e8ee186c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_1
+      name: vIMYDXB_1
       rect:
         serializedVersion: 2
-        x: 165
-        y: 624
-        width: 110
-        height: 80
+        x: 432
+        y: 3072
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e5aafccd3e9bd542a24e338936d5199
+      spriteID: 00423d7612f606e43b5bdb9893bc0ce1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_2
+      name: vIMYDXB_2
       rect:
         serializedVersion: 2
-        x: 312
-        y: 624
-        width: 80
-        height: 80
+        x: 864
+        y: 3072
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 292fd63d98d3ea1468a829590d3bcae0
+      spriteID: 53016cff3f79d114792c71b7479c2654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_3
+      name: vIMYDXB_3
       rect:
         serializedVersion: 2
-        x: 428
-        y: 624
-        width: 80
-        height: 80
+        x: 1296
+        y: 3072
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233486dd5127245439de19e0a98c45c5
+      spriteID: 14830e1b0e39f6d4fa6ede9054375777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_4
+      name: vIMYDXB_4
       rect:
         serializedVersion: 2
-        x: 19
-        y: 504
-        width: 120
-        height: 80
+        x: 1728
+        y: 3072
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef8a0e08ed2141845b6d670bf2693233
+      spriteID: b37c929c10a8d3a44bc072d7a583da77
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_5
+      name: vIMYDXB_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 504
-        width: 120
-        height: 80
+        x: 0
+        y: 2304
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8bf82416b52ad04897b4ff249d73680
+      spriteID: bfbb9f3e9b6ccaa42bf87e8b193d8d23
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_6
+      name: vIMYDXB_6
       rect:
         serializedVersion: 2
-        x: 300
-        y: 504
-        width: 100
-        height: 80
+        x: 432
+        y: 2304
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a735590585cbb9341b5e6eee03fb9260
+      spriteID: ae788e351015f2a4580e7af25bc3997f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_7
+      name: vIMYDXB_7
       rect:
         serializedVersion: 2
-        x: 421
-        y: 504
-        width: 100
-        height: 70
+        x: 864
+        y: 2304
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e03718bda9604f9419649e550fed1644
+      spriteID: 5a27a6dcf39272c46a5ec2c6e4f6e70e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_8
+      name: vIMYDXB_8
       rect:
         serializedVersion: 2
-        x: 19
-        y: 384
-        width: 70
-        height: 80
+        x: 1296
+        y: 2304
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 044ebee80278f8849ab1ebedd6e60669
+      spriteID: 241fead5086095843b760f174a47568e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_9
+      name: vIMYDXB_9
       rect:
         serializedVersion: 2
-        x: 110
-        y: 384
-        width: 70
-        height: 80
+        x: 1728
+        y: 2304
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1fab1e2822d5154da9cd5f151e92980
+      spriteID: 377308cd86e7bf64ea76145b02743cf6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_10
+      name: vIMYDXB_10
       rect:
         serializedVersion: 2
-        x: 200
-        y: 384
-        width: 90
-        height: 80
+        x: 0
+        y: 1536
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a6217f9cf38a33418063f48fefe1971
+      spriteID: eb0644513292ecc418b90a05504aa40c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_11
+      name: vIMYDXB_11
       rect:
         serializedVersion: 2
-        x: 311
-        y: 384
-        width: 90
-        height: 80
+        x: 432
+        y: 1536
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9d24101644fb5048b2376668a83e46e
+      spriteID: 620f6fc9a2911a14aa17359229f97b27
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_12
+      name: vIMYDXB_12
       rect:
         serializedVersion: 2
-        x: 417
-        y: 375
-        width: 52
-        height: 73
+        x: 864
+        y: 1536
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe557af7f41d4ca4bb5a1580608cf196
+      spriteID: 439b4251e1133e24aaf8473e866373f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_14
+      name: vIMYDXB_13
       rect:
         serializedVersion: 2
-        x: 488
-        y: 374
-        width: 59
-        height: 73
+        x: 1296
+        y: 1536
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f991e49f56b6a4d458f6dd0e1e924c3e
+      spriteID: 1b160bb9568be494687f3f99d5246909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_15
+      name: vIMYDXB_14
       rect:
         serializedVersion: 2
-        x: 19
-        y: 264
-        width: 100
-        height: 80
+        x: 1728
+        y: 1536
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d438cf5e30a5374ba362d76b8159cc4
+      spriteID: d143f20859ac7d44cadb6a4cb54ff61d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_16
+      name: vIMYDXB_15
       rect:
         serializedVersion: 2
-        x: 145
-        y: 264
-        width: 100
-        height: 80
+        x: 0
+        y: 768
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf13614ca7cc3744081000d04c2ff965
+      spriteID: 433dfbde99504c74ca3b7ec82c35d7e1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_17
+      name: vIMYDXB_16
       rect:
         serializedVersion: 2
-        x: 271
-        y: 264
-        width: 80
-        height: 80
+        x: 432
+        y: 768
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 224d892306834434ab864c3776978210
+      spriteID: ef639de97c7af1144ba280a131674d62
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_18
+      name: vIMYDXB_17
       rect:
         serializedVersion: 2
-        x: 377
-        y: 264
-        width: 80
-        height: 80
+        x: 864
+        y: 768
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b779b7cf05ec8ad488dd6a4bde35d925
+      spriteID: c0f8727b7038b8b42b9cc2f39bfc17cb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_19
+      name: vIMYDXB_18
       rect:
         serializedVersion: 2
-        x: 487
-        y: 273
-        width: 28
-        height: 51
+        x: 1296
+        y: 768
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b694bec42d5347344907c8c54a0b49fa
+      spriteID: 0361cc5dfcafcbb4c84351e586daba8f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_20
+      name: vIMYDXB_19
       rect:
         serializedVersion: 2
-        x: 19
-        y: 144
-        width: 70
-        height: 60
+        x: 1728
+        y: 768
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b6b8a21074d59a4db31e501c87466f4
+      spriteID: 53a1b651f82f6ed4ebdf7fd3d328b4d5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_21
+      name: vIMYDXB_20
       rect:
         serializedVersion: 2
-        x: 120
-        y: 144
-        width: 90
-        height: 70
+        x: 0
+        y: 0
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 467e748dcc406f24faba15989eb0598d
+      spriteID: 7e302f8dc55d149488f0ae3a428dac5e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_22
+      name: vIMYDXB_21
       rect:
         serializedVersion: 2
-        x: 236
-        y: 144
-        width: 80
-        height: 80
+        x: 432
+        y: 0
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa8d74e79a2a45c4184134fbe4cee002
+      spriteID: ccb497c5a8d466543b0c3633ca22cdd6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_23
+      name: vIMYDXB_22
       rect:
         serializedVersion: 2
-        x: 347
-        y: 144
-        width: 80
-        height: 80
+        x: 864
+        y: 0
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e934a058b0c4bf4e967d45a6a0071c6
+      spriteID: 81067a11b99f2824fa82b06e73c91a88
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_24
+      name: vIMYDXB_23
       rect:
         serializedVersion: 2
-        x: 451
-        y: 142
-        width: 112
-        height: 70
+        x: 1296
+        y: 0
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5835abc9f1570ad458f783cfb98719ac
+      spriteID: e8e78d350fa6ea949a28e15207834a36
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spaceinvaders_41
+      name: vIMYDXB_24
       rect:
         serializedVersion: 2
-        x: 20
-        y: 26
-        width: 123
-        height: 57
+        x: 1728
+        y: 0
+        width: 432
+        height: 768
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84153dd9ba3890d46a8b745f629f6dc4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spaceinvaders_42
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 28
-        width: 73
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 393b738a0a8722245a5954d65505c2ea
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spaceinvaders_56
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 16
-        width: 120
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6867d71cff2c07e46994493606bb4744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spaceinvaders_58
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 28
-        width: 99
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4daa6cccfbb2fa143b402769480203ad
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spaceinvaders_61
-      rect:
-        serializedVersion: 2
-        x: 468
-        y: 19
-        width: 90
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc4004586a984b542aa7a3abd8632329
+      spriteID: c9cc5487bed34bc44a5466810b549a64
       vertices: []
       indices: 
       edges: []
@@ -709,7 +686,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d8d0e74eee9ff024382a00863806ccfa
+    spriteID: 2b334958a0a98f24e976983117ebc233
     vertices: []
     indices: 
     edges: []

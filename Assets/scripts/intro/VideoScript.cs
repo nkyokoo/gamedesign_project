@@ -23,11 +23,7 @@ public class VideoScript : MonoBehaviour
             SceneManager.LoadScene (1);
         }
 
-      /*  if (!myVid.isPlaying)
-        {
-            SceneManager.LoadScene (1);
-        }
-       */
+  
         
     }
     void LoadScene(VideoPlayer vp)
