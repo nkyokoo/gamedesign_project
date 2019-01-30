@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 596376254}
   - component: {fileID: 596376256}
   m_Layer: 9
-  m_Name: ship_2
+  m_Name: ship_floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -583,12 +583,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596376253}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.37, y: 2.134, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.3906064, y: 1.1240001, z: 1.6550694}
   m_LocalScale: {x: 1, y: 0.988, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1615962282}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &596376256
 BoxCollider2D:
@@ -716,6 +716,7 @@ Transform:
   - {fileID: 388883077}
   - {fileID: 1700197294}
   - {fileID: 406586997}
+  - {fileID: 596376255}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -839,6 +840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1826288633}
   - component: {fileID: 1826288632}
+  - component: {fileID: 1826288634}
   m_Layer: 0
   m_Name: ship_3
   m_TagString: Untagged
@@ -908,6 +910,32 @@ Transform:
   m_Father: {fileID: 1615962282}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1826288634
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826288631}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.53, y: 0.77}
+    newSize: {x: 10.53, y: 0.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.53, y: 0.77}
+  m_EdgeRadius: 0
 --- !u!1 &1936494534
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,7 +1006,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c141b03e21cf12749a96a1f47ef69d3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 5
+  ground: {fileID: 596376253}
 --- !u!212 &1936494538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1035,7 +1064,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936494534}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.39855242, y: 7.22, z: 9.783}
+  m_LocalPosition: {x: -0.45, y: 7.55, z: 9.783}
   m_LocalScale: {x: 0.24955596, y: 0.3012842, z: 0.5743122}
   m_Children: []
   m_Father: {fileID: 1750122828}
