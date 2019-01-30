@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -13,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - player
+  - ground
+  - wall
+  - roof
   - 
   - 
   - 
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 2405476463
+    locked: 0
+  - name: wall
+    uniqueID: 4001283923
+    locked: 0
+  - name: player
+    uniqueID: 3412178255
+    locked: 0
+  - name: foreground
+    uniqueID: 1615332245
     locked: 0
