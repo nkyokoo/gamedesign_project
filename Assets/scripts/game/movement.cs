@@ -27,15 +27,15 @@ public class movement : MonoBehaviour
         isgrounded = Physics2D.Linecast(transform.position, GroundCheck.position,
             1 << LayerMask.NameToLayer("Ground"));
 
-         
         horizontalMove = Input.GetAxisRaw("Horizontal")*speed;
-        anim.SetFloat("Speed",Math.Abs(horizontalMove));
+      
         if (Input.GetKey(KeyCode.D))
         {   
             
             m_FacingRight = true;
             transform.localRotation = Quaternion.Euler(0, 0, 0);
             transform.Translate(Vector3.right * Time.deltaTime * speed);
+            anim.SetFloat("Speed",Math.Abs(horizontalMove));
   
 
         }
@@ -44,11 +44,18 @@ public class movement : MonoBehaviour
             m_FacingRight = false;
             transform.localRotation = Quaternion.Euler(0, 180, 0);
             transform.Translate(Vector3.right * Time.deltaTime * speed);
+            anim.SetFloat("Speed",Math.Abs(horizontalMove));
          
  
         }
+        else
+        {
+              anim.SetFloat("Speed",Math.Abs(horizontalMove));
+  
+        }
+  
         
-             
+  
 
         if (isgrounded)
         { 
@@ -57,24 +64,8 @@ public class movement : MonoBehaviour
             {
                
                 Debug.Log("Jump should be set to true");
-                rb.AddForce(new Vector2(0, 1), ForceMode2D.Impulse);
+                rb.AddForce(new Vector2(0, 2), ForceMode2D.Impulse);
             }
-        }
-    }
-
-    void OnCollisionEnter(Collision theCollision)
-    {
-        if (theCollision.gameObject.layer == 9)
-        {
-            isgrounded = true;
-        }
-    }
-
-    void OnCollisionExit(Collision theCollision)
-    {
-        if (theCollision.gameObject.layer == 9)
-        {
-            isgrounded = false;
         }
     }
 }
