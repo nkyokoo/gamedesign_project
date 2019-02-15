@@ -1,19 +1,23 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Linq;
 using UnityEngine;
-using UnityEngine.Experimental.UIElements.StyleEnums;
 
 public class movement : MonoBehaviour
 {
     public float speed = 1;
     public Transform GroundCheck;
+    public float jumpForce;
+    public GameObject hitbox;
     private bool isgrounded;
     private bool m_FacingRight;
     private float horizontalMove;
     private bool jump;
     private Rigidbody2D rb;
     private Animator anim;
+    private bool canDamage;
+    private GameObject enemy;
 
     void Start()
     {
@@ -29,7 +33,7 @@ public class movement : MonoBehaviour
 
         horizontalMove = Input.GetAxisRaw("Horizontal")*speed;
       
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetAxis("Horizontal") > 0)
         {   
             
             m_FacingRight = true;
@@ -39,7 +43,7 @@ public class movement : MonoBehaviour
   
 
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetAxis("Horizontal") < 0)
         {
             m_FacingRight = false;
             transform.localRotation = Quaternion.Euler(0, 180, 0);
@@ -53,19 +57,36 @@ public class movement : MonoBehaviour
               anim.SetFloat("Speed",Math.Abs(horizontalMove));
   
         }
-  
+        hitbox.SetActive(false);
+        if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.JoystickButton2))
+        {
+            
+           anim.SetTrigger("punching");
+           Debug.Log("hello");
+           hitbox.SetActive(true);
+         
+        }
         
-  
-
+        if (transform.position.y > 40)
+        {
+          if(isgrounded)
+          {
+              double damagedhealth = GetComponent<playerproperties>().getHealth() - transform.position.y / 50;
+              GetComponent<playerproperties>().setHealth(damagedhealth);
+          }
+            
+            
+        }
         if (isgrounded)
-        { 
+        {
+            anim.SetBool("isJumping",false);
             jump = true;
             if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.JoystickButton0))
             {
                
-                Debug.Log("Jump should be set to true");
-                rb.AddForce(new Vector2(0, 2), ForceMode2D.Impulse);
+                anim.SetBool("isJumping",true);
+                rb.AddForce(transform.up * jumpForce);
             }
         }
     }
-}
+ }

@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/mainmenu.unity
     guid: 29d91bca35ec3914aa3be5ffe6f21197
   - enabled: 1
-    path: Assets/Scenes/game.unity
+    path: Assets/Scenes/ship.unity
     guid: fa9406dbb7f7ea94fa976678a1056975
+  - enabled: 1
+    path: Assets/Scenes/miter.unity
+    guid: 5e5d1c844890b034cb17ae829e08bae1
   m_configObjects: {}

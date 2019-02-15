@@ -57,21 +57,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <Compile Include="Assets\scripts\controllerchecker.cs" />
+    <Compile Include="Assets\scripts\game\clickScript.cs" />
+    <Compile Include="Assets\scripts\game\controllerchecker.cs" />
     <Compile Include="Assets\scripts\game\DeathScreenButons.cs" />
+    <Compile Include="Assets\scripts\game\follow.cs" />
+    <Compile Include="Assets\scripts\game\hostileNPC.cs" />
     <Compile Include="Assets\scripts\game\movement.cs" />
     <Compile Include="Assets\scripts\game\playerproperties.cs" />
+    <Compile Include="Assets\scripts\game\teleporter.cs" />
+    <Compile Include="Assets\scripts\game\worldGenerator.cs" />
     <Compile Include="Assets\scripts\intro\VideoScript.cs" />
     <Compile Include="Assets\scripts\mainmenu\mainmenuscript.cs" />
-    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/HFGF/Desktop/gamedesign_project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -642,12 +638,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{3412FD86-DF6D-F9A8-B11E-518C24C10768}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
