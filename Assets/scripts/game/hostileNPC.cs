@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ public class hostileNPC : MonoBehaviour
     private bool isgrounded;
     private bool canNotMoveLeft;
     private bool canNotMoveRight;
+    private Animator anim;
     public float jumpForce;
     private Rigidbody2D rb;
 
@@ -23,6 +25,7 @@ public class hostileNPC : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -48,7 +51,6 @@ public class hostileNPC : MonoBehaviour
         }
         else if (canNotMoveRight)
         {
-            Debug.Log("hello world");
             if(isgrounded){
                 rb.AddForce(transform.up * jumpForce);
             }
@@ -56,7 +58,8 @@ public class hostileNPC : MonoBehaviour
         else 
         {
             transform.position=Vector3.MoveTowards(transform.position,GameObject.Find("player").transform.position, speed);
-      
+            anim.SetFloat("Speed",Math.Abs(speed));
+
         }
         if (npcHealth <=0 )
         {
