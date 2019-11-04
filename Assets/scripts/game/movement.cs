@@ -18,6 +18,7 @@ public class movement : MonoBehaviour
     private Animator anim;
     private bool canDamage;
     private GameObject enemy;
+    private int jumpHeight;
 
     void Start()
     {
@@ -66,17 +67,26 @@ public class movement : MonoBehaviour
            hitbox.SetActive(true);
          
         }
-        
-        if (transform.position.y > 40)
+
+        if (!isgrounded)
         {
-          if(isgrounded)
-          {
-              double damagedhealth = GetComponent<playerproperties>().getHealth() - transform.position.y / 50;
-              GetComponent<playerproperties>().setHealth(damagedhealth);
-          }
-            
+            Debug.Log(jumpHeight);
+            jumpHeight++;
+        }
+        if (isgrounded && (jumpHeight >= 90 && jumpHeight <= 139))
+        {
+            Debug.Log("Applying fall damage");
+            var damagedhealth = GetComponent<playerproperties>().getHealth() - 20*jumpHeight;
+            GetComponent<playerproperties>().setHealth(damagedhealth);
             
         }
+        else if (isgrounded)
+        {
+            jumpHeight = 0;
+        }
+       
+            
+        
         if (isgrounded)
         {
             anim.SetBool("isJumping",false);
