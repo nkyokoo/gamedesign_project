@@ -39,7 +39,7 @@ public class playerproperties : MonoBehaviour
         if (other.gameObject.CompareTag("enemy"))
         {
             _playerHealth = _playerHealth - 1;
-            rb.AddForce(Vector2.left * 200f);
+            rb.AddForce(Vector2.left * 100f);
         }
     }
 

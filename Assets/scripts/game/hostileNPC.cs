@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class hostileNPC : MonoBehaviour
 {
@@ -10,15 +11,17 @@ public class hostileNPC : MonoBehaviour
     public GameObject enemyGroundCheck;
     public GameObject enemyLeftCheck;
     public GameObject enemyRightCheck;
+    public GameObject enemyHPBar;
+    public float jumpForce;
+    private Rigidbody2D rb;
+
     
     //private variable only needed for the script and should not be changed
     private bool isgrounded;
     private bool canNotMoveLeft;
     private bool canNotMoveRight;
-    public float jumpForce;
-    private Rigidbody2D rb;
-
     private float hittimer = 0f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,7 @@ public class hostileNPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        enemyHPBar.SetActive(false);
         hittimer += Time.deltaTime;
         
         isgrounded = Physics2D.Linecast(transform.position, enemyGroundCheck.transform.position,
@@ -65,11 +69,12 @@ public class hostileNPC : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {
+    {        enemyHPBar.GetComponent<Text>().text = npcHealth.ToString();
         if (other.CompareTag("punch") && hittimer>0.5f)
         {
-        
             npcHealth = npcHealth - 2;
+            enemyHPBar.GetComponent<Text>().text = npcHealth.ToString();
+            enemyHPBar.SetActive(true); 
             rb.AddForce(Vector2.right*50f);
             hittimer = 0f;
         }
